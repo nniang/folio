@@ -1,0 +1,625 @@
+@media (min-width: 250px) {
+
+    .accueil .cadre-accueil{
+        padding: 10px 20px;
+    
+         }
+     
+         .accueil .left{
+             margin: 150px 0 0 0px;
+             z-index: 1000;
+             text-align: left;
+           }
+           .accueil .right{
+            margin: 10px 0 0 -250px;
+        
+    
+          }
+     
+           .accueil .left-haut .span1{
+             color: white;
+             font-size: 20px;
+             font-weight: 500;
+           }
+           .accueil .left-haut .span2{
+             color: rgb(255, 153, 0);
+             font-size: 23px;
+             font-weight: 700;
+           }
+           .accueil .left-haut h2{
+             color: white;
+             font-size: 20px;
+             font-weight: 400;
+           }
+           .accueil .left-bas ul{
+             display: block; 
+          align-items: center;
+          font-weight: 600;
+             font-size: 11px;
+             font-weight: 400;
+             padding-left: 0px;
+        }
+        .accueil .left-bas{
+        margin: 0px 0px;
+         padding: 15px 10px;
+         width: 200px;
+       }
+       .accueil .left-bas img{
+        width: 16px;
+       }
+       .accueil .right img{
+         height: 400px;
+         }
+    
+         /* .presentation{
+            margin-top:-245px; 
+            
+            } */
+}
+
+@media (min-width: 300px) {
+
+/* --------menu----------- */
+nav.navbar {
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+  background-color: rgb(12, 12, 15);
+}
+
+   /* --------accueil---------- */
+   .accueil {
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+    height: 500px;
+  
+  }
+
+   .accueil .cadre-accueil{
+    padding: 10px 20px;
+     }
+ 
+     .accueil .left{
+         margin: 150px 0 0 0px;
+         z-index: 1000;
+         text-align: left;
+       }
+       .accueil .right{
+        margin: 10px 0 0 -250px;
+    
+
+      }
+ 
+       .accueil .left-haut .span1{
+         color: white;
+         font-size: 20px;
+         font-weight: 500;
+       }
+       .accueil .left-haut .span2{
+         color: rgb(255, 153, 0);
+         font-size: 23px;
+         font-weight: 700;
+       }
+       .accueil .left-haut h2{
+         color: white;
+         font-size: 20px;
+         font-weight: 400;
+       }
+       .accueil .left-bas ul{
+         display: block; 
+      align-items: center;
+      font-weight: 600;
+         font-size: 11px;
+         font-weight: 400;
+         padding-left: 0px;
+    }
+    .accueil .left-bas{
+    margin: 0px 0px;
+     padding: 15px 10px;
+     width: 200px;
+   }
+   .accueil .left-bas img{
+    width: 16px;
+   }
+   .accueil .right img{
+     height: 400px;
+     }
+
+      .presentation{
+        margin-top:-50px; 
+        
+        } 
+          /* --------------competence--------- */
+.competence .left-outils{
+  display: flex;
+   justify-content: center;
+ }
+.competence .left-outils .flex li{
+  margin-top: 1px;
+   
+  }
+  .competence .left-outils .flexe li{
+   margin-top: 1px; 
+    
+   }
+   .competence .left-outils .flex .a{
+    width: 150px;
+    height: 10px;
+   } 
+   .competence .left-outils .flex .aa{
+     width: 150px;
+     height: 10px;
+    
+    } 
+    .competence .left-outils .flex .aaa{
+     width: 100px;
+     height: 10px; 
+    } 
+    .competence .left-outils .flexe h4{
+     font-size: 20px;
+     }
+    
+   
+    .competence .right-language{
+      display: flex;
+       justify-content: center;
+     }
+    .competence .right-language .flex li{
+      margin-top: 1px;
+       
+      }
+      .competence .right-language .flexe li{
+       margin-top: 1px; 
+        
+       }
+       .competence .right-language .flex .a{
+        width: 150px;
+        height: 10px;
+       } 
+       .competence .right-language .flex .aa{
+         width: 150px;
+         height: 10px;
+        
+        } 
+        .competence .right-language .flex .aaa{
+         width: 100px;
+         height: 10px; 
+        } 
+        .competence .right-language  .flexe h4{
+          font-size: 20px;
+          }
+
+        .experience .row-bas{
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height:200vmin;
+          background-attachment: fixed;
+         
+        }
+        /*------------- contact------ */
+
+        .contact .row-contact .row-form input{
+          width: 280px;
+          height: 40px;
+        
+        }
+        .contact .row-contact .row-form .formul{
+          width: 310px;
+          height: 50px;
+         
+        
+        }
+        .contact .row-contact .row-form textarea{
+      
+          width: 300px;
+          
+        }
+       
+}
+
+
+
+
+
+@media (min-width: 430px) {
+
+  /* --------menu----------- */
+  nav.navbar {
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+    background-color: rgb(12, 12, 15);
+  }
+    /* --------accueil---------- */
+    .accueil {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  z-index: -1;
+     
+    }
+
+    .accueil .cadre-accueil{
+        padding: 10px 10px;
+        
+         }
+     
+         .accueil .left{
+             margin: 50px 0 0 0;
+           }
+           .accueil .right{
+            margin: 10px 0 0 0px;
+        
+          }
+     
+           .accueil .left-haut .span1{
+             color: white;
+             font-size: 20px;
+             font-weight: 400;
+           }
+           .accueil .left-haut .span2{
+             color: rgb(255, 153, 0);
+             font-size: 25px;
+             font-weight: 600;
+           }
+           .accueil .left-haut h2{
+             color: white;
+             font-size: 20px;
+             font-weight: 400;
+           }
+           .accueil .left-bas ul{
+             display: block; 
+          align-items: center;
+             font-size: 9px;
+             font-weight: 400;
+             padding-left: 0px;
+           
+        
+        }
+        .accueil .left-bas img{
+            width: 20px;
+           }
+        .accueil .left-bas{
+         margin-top: 30px;
+         padding: 15px 0px;
+       
+       }
+       .accueil .right img{
+         height: 380px;
+         }
+
+  .presentation{
+        margin-top:-150px; 
+        
+        }
+        /* --------------competence--------- */
+.competence .left-outils{
+  display: flex;
+   justify-content: center;
+ }
+.competence .left-outils .flex li{
+  margin-top: 1px;
+   
+  }
+  .competence .left-outils .flexe li{
+   margin-top: 1px; 
+    
+   }
+   .competence .left-outils .flex .a{
+    width: 150px;
+    height: 10px;
+   } 
+   .competence .left-outils .flex .aa{
+     width: 150px;
+     height: 10px;
+    
+    } 
+    .competence .left-outils .flex .aaa{
+     width: 100px;
+     height: 10px; 
+    } 
+    .competence .left-outils .flexe h4{
+     font-size: 20px;
+     }
+    
+   
+    .competence .right-language{
+      display: flex;
+       justify-content: center;
+     }
+    .competence .right-language .flex li{
+      margin-top: 1px;
+       
+      }
+      .competence .right-language .flexe li{
+       margin-top: 1px; 
+        
+       }
+       .competence .right-language .flex .a{
+        width: 150px;
+        height: 10px;
+       } 
+       .competence .right-language .flex .aa{
+         width: 150px;
+         height: 10px;
+        
+        } 
+        .competence .right-language .flex .aaa{
+         width: 100px;
+         height: 10px; 
+        } 
+        .competence .right-language  .flexe h4{
+          font-size: 20px;
+          }
+
+          /*----------- experience----- */
+    .experience .row-bas{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height:150vmin;
+      background-attachment: fixed;
+     
+    }
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+/* --------menu----------- */
+nav.navbar {
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+  background-color: rgb(12, 12, 15);
+}
+
+     /* ---------accueil--------------- */
+     .accueil .cadre-accueil{
+        padding: 10px 10px;
+        
+         }
+     
+         .accueil .left{
+             margin: 50px 0 0 0;
+           }
+           .accueil .right{
+            margin: 10px 0 0 0px;
+        
+          }
+           .accueil .left-haut .span1{
+             color: white;
+             font-size: 27px;
+             font-weight: 400;
+           }
+           .accueil .left-haut .span2{
+             color: rgb(255, 153, 0);
+             font-size: 34px;
+             font-weight: 600;
+           }
+           .accueil .left-haut h2{
+             color: white;
+             font-size: 27px;
+             font-weight: 400;
+           }
+           .accueil .left-bas ul{
+             display: block; 
+          align-items: center;
+             font-size: 12px;
+           
+        
+        }
+        .accueil .left-bas{
+         margin-top: 50px;
+         padding: 15px 0px;
+       
+       }
+       .accueil .right img{
+         height: 450px;
+         }
+ /*----------- experience----- */
+ .experience .row-bas{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:50vmin;
+  background-attachment: fixed;
+ 
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  /* --------menu----------- */
+  nav.navbar {
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+    background-color: rgb(12, 12, 15);
+  }
+  
+
+     /* ---------accueil--------------- */
+   
+     .accueil .cadre-accueil{
+   padding: 10px 10px;
+   
+    }
+
+    .accueil .left{
+        margin: 50px 0 0 0;
+      }
+
+      .accueil .left-haut .span1{
+        color: white;
+        font-size: 35px;
+        font-weight: 400;
+      }
+      .accueil .left-haut .span2{
+        color: rgb(255, 153, 0);
+        font-size: 40px;
+        font-weight: 600;
+      }
+      .accueil .left-haut h2{
+        color: white;
+        font-size: 35px;
+        font-weight: 400;
+      }
+      .accueil .left-bas ul{
+        display: block; 
+     align-items: center;
+        font-size: 13px;
+      
+   
+   }
+   .accueil .left-bas{
+    margin-top: 50px;
+    padding: 15px 0px;
+    width: 250px;
+  
+  }
+  .accueil .right img{
+    height: 500px;
+    }
+    /*----------- experience----- */
+    .experience .row-bas{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height:50vmin;
+      background-attachment: fixed;
+     
+    }
+/* --------------competence--------- */
+.competence .left-outils{
+  display: flex;
+   justify-content: space-around;
+ }
+.competence .left-outils .flex li{
+  margin-top: 1px;
+   
+  }
+  .competence .left-outils .flexe li{
+   margin-top: 1px; 
+    
+   }
+   .competence .left-outils .flex .a{
+    width: 180px;
+    height: 13px;
+   } 
+   .competence .left-outils .flex .aa{
+     width: 180px;
+     height: 13px;
+    
+    } 
+    .competence .left-outils .flex .aaa{
+     width: 130px;
+     height: 13px; 
+    } 
+   
+    .competence .right-language{
+      display: flex;
+       justify-content: space-around;
+     }
+    .competence .right-language .flex li{
+      margin-top: 1px;
+       
+      }
+      .competence .right-language .flexe li{
+       margin-top: 1px; 
+        
+       }
+       .competence .right-language .flex .a{
+        width: 180px;
+        height: 13px;
+       } 
+       .competence .right-language .flex .aa{
+         width: 180px;
+         height: 13px;
+        
+        } 
+        .competence .right-language .flex .aaa{
+         width: 130px;
+         height: 13px; 
+        } 
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 991px) { 
+ /* ---------accueil--------------- */
+
+  .accueil .left{
+    margin:100px 0 0 0;
+  }
+
+ 
+  .accueil .right img{
+  height: 520px;
+  }
+  .accueil .left-haut .span1{
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+  }
+  .accueil .left-haut .span2{
+    color: rgb(255, 153, 0);
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .accueil .left-haut h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+  }
+  
+  .accueil .left-bas{
+    margin-top: 50px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(4, 143, 90, 0.568),rgba(255, 255, 255, 0.034),rgba(255, 255, 255, 0));
+    width: 550px;
+  }
+  .accueil .left-bas ul{
+       display: flex; 
+    align-items: center;
+       list-style: none;
+       color: white;
+       font-size: 16px;
+       font-weight: 600;
+  
+  }
+
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ 
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+   
+ }
