@@ -70,7 +70,7 @@ export default function Accueil() {
                                     <div className='left-bas'>
                                     <ul>
                                         <li><img src={img1}/>  780125721</li> &nbsp;  &nbsp;&nbsp;  &nbsp;
-                                        <li><img src={img2}/> nngagne@gmail.com</li> &nbsp;  &nbsp;&nbsp;  &nbsp;
+                                        <li><img src={img2}/> nngagne00@gmail.com</li> &nbsp;  &nbsp;&nbsp;  &nbsp;
                                         <li><img src={img3}/> Wokam</li>
                                       
                                     </ul>
