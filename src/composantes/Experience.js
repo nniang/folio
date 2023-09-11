@@ -20,14 +20,69 @@ export default function Experience() {
                 <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
                 <h4>Certification en javascript</h4>
             <h5>Juin 2022</h5>
-            <p>J'ai reussi la certification en ligne sur la plateforme sololearning dans le domaine de javascript en validant plus
+            <p>J'ai reussi la certification en ligne sur la plateforme ProgrammingHup dans le domaine de javascript en validant plus
               de 50 exercices.
             </p>
                 </div>
                 </div>}
               </TrackVisibility>
             </Col>
-
+            <Col xs={12}>
+            <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+                <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Certification en React</h4>
+            <h5>Novembre 2022</h5>
+            <p>J'ai reussi la certification en ligne sur la plateforme ProgrammingHup dans le domaine de React en validant plus
+              de 50 exercices.
+            </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+            </Col>
+            <Col xs={12}>
+            <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+                <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Certification en React-native</h4>
+            <h5>Juin 2022</h5>
+            <p>J'ai reussi la certification en ligne sur la plateforme ProgrammingHup dans le domaine de React-native en validant plus
+              de 50 exercices.
+            </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+            </Col>
+            <Col xs={12}>
+            <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+                <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Certification en Java</h4>
+            <h5>Juin 2022</h5>
+            <p>J'ai reussi la certification en ligne sur la plateforme ProgrammingHup dans le domaine de Java en validant plus
+              de 50 exercices.
+            </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+            </Col>
+            <Col xs={12}>
+            <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+                <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Certification en Django/Python</h4>
+            <h5>Juin 2022</h5>
+            <p>J'ai reussi la certification en ligne sur la plateforme ProgrammingHup dans le domaine de Django-Python en validant plus
+              de 50 exercices.
+            </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+            </Col>
 
             <Col xs={12}>
             <TrackVisibility>
@@ -36,7 +91,7 @@ export default function Experience() {
                <div className='experiences  shadow-lg p-3 mb-5 bg-body rounded'>
                 <h4>Formation à Bakeli</h4>
             <h5>Avril 2022</h5>
-            <p>J'ai appris beaucoup de language et framwork sur la formation de bakeli et beaucoup de mes taches sont validés par des coachs expérimentés telque les landing pages les crud avec firebase et surtout Git.   </p>
+            <p>J'ai appris beaucoup de language et framwork sur la formation de bakeli et beaucoup de mes taches sont validés par des coachs expérimentés telque les landing pages les crud avec firebase et surtout Git. Et j'ai fait mon stage a Red Team qui une branch de Volkeno  </p>
                 </div>
                 </div>}
               </TrackVisibility>

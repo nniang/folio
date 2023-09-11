@@ -546,6 +546,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link:hover::after {
   font-weight: 500;
   background-color: rgba(245, 222, 179, 0.158);
 }
+
 .contact .row-contact .row-form button {
   margin-top: 20px;
   padding: 10px 30px;
@@ -604,5 +605,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link:hover::after {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1202px) {
+  .img_contact {
+    float:right;
   }
 }

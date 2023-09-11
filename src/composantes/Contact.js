@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row, Container} from "react-bootstrap";
-import img from '../images/ngagne.jpeg'
+import img from '../images/ngagne.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 export default function Contact() {
@@ -37,12 +37,12 @@ export default function Contact() {
             </form>
            
             </Col>
-            <Col md={6}>
+            <Col md={6} sm={12}>
             <TrackVisibility>
             {({isVisible})=>
             <div className={isVisible ? " animate__animated animate__zoomIn" : ""}>
             <div className='right'>
-                   <img src={img} alt='aaz' />
+                   <img src={img} alt='ngagne' className='img-responsive img_contact'/>
                 </div>
                 </div>}
               </TrackVisibility>

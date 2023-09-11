@@ -6,6 +6,7 @@ import img3 from '../images/tache6.jpg'
 import img4 from '../images/tache7.jpg'
 import img5 from '../images/tache9 (1).jpg'
 import img6 from '../images/TACHEBOOTSTRAP (1).jpg'
+// import img11
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -17,6 +18,27 @@ export default function Portefolio() {
 
         <Row className='row1'>
         <Col lg={4}>
+        <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+            <CardGroup>
+      <Card className="p-3 mb-5 ">
+        <Card.Img variant="top" className='image' src={img1} alt='imgA' style={{width:"300px", height:"300px"}} />
+        <Card.Body>
+          <Card.Title> Projet Tayeur-Gestion</Card.Title>
+          <Card.Text>
+            Projet realisé en react/django qui pour objectif de faciliter aux tailleur leur travail 
+         <br /><br />
+         
+         <Button className='btn' href='https://gitlab.com/red-team-volkeno/tayeur-gestion' target='_blank'>voir le projet en ligne</Button>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      </CardGroup>
+      </div>}
+              </TrackVisibility>
+            </Col>
+            <Col lg={4}>
         <TrackVisibility>
             {({isVisible})=>
             <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
@@ -37,7 +59,48 @@ export default function Portefolio() {
       </div>}
               </TrackVisibility>
             </Col>
-
+            <Col lg={4}>
+        <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+            <CardGroup>
+      <Card className="p-3 mb-5 ">
+        <Card.Img variant="top" className='image' src={img1} alt='imgA' style={{width:"300px", height:"300px"}} />
+        <Card.Body>
+          <Card.Title> crud et authentification</Card.Title>
+          <Card.Text>
+            Projet realisé en Angular qui pour objectif de faire Une authentification et crud sur les produits 
+         <br /><br />
+         
+         <Button className='btn' href='https://regal-dragon-7f08d7.netlify.app/' target='_blank'>voir le projet en ligne</Button>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      </CardGroup>
+      </div>}
+              </TrackVisibility>
+            </Col>
+            <Col lg={4}>
+        <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+            <CardGroup>
+      <Card className="p-3 mb-5 ">
+        <Card.Img variant="top" className='image' src={img1} alt='imgA' style={{width:"300px", height:"300px"}} />
+        <Card.Body>
+          <Card.Title> crud et authentification</Card.Title>
+          <Card.Text>
+            Projet realisé en Angular qui pour objectif de faire Une authentification et crud sur les produits 
+         <br /><br />
+         
+         <Button className='btn' href='https://regal-dragon-7f08d7.netlify.app/' target='_blank'>voir le projet en ligne</Button>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      </CardGroup>
+      </div>}
+              </TrackVisibility>
+            </Col>
             <Col lg={4}>
             <TrackVisibility>
             {({isVisible})=>

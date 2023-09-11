@@ -61,8 +61,9 @@ export default function Competence() {
     <li className='b'> <h4>CSS</h4>  </li>
     <li className='b'> <h4>JAVASCRIPT</h4> </li>
     <li className='b'> <h4>Java</h4> </li>
-    <li className='b'> <h4>Php</h4></li> 
+    <li className='b'> <h4>Php</h4></li> <br/>
     <li className='b'> <h4>Python</h4></li>
+    <li className='b'> <h4>React-native</h4></li>
     </ul>
 
 <ul className='flex'>    
@@ -72,6 +73,8 @@ export default function Competence() {
         <li className='aa'>< div className='aaa'></div>  </li><br />
         <li className='aa'><div className='aaa'></div>  </li><br />
         <li className='aa'>< div className='aaa'></div>  </li><br />
+        <li className='aa'>< div className='aaa'></div>  </li>
+        
 
     </ul>
 
