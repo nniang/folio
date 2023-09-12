@@ -6,7 +6,8 @@ import img3 from '../images/tache6.jpg'
 import img4 from '../images/tache7.jpg'
 import img5 from '../images/tache9 (1).jpg'
 import img6 from '../images/TACHEBOOTSTRAP (1).jpg'
-// import img11
+import img7 from '../images/tayeur.JPG'
+import img8 from '../images/easy.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -23,7 +24,7 @@ export default function Portefolio() {
             <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
             <CardGroup>
       <Card className="p-3 mb-5 ">
-        <Card.Img variant="top" className='image' src={img1} alt='imgA' style={{width:"300px", height:"300px"}} />
+        <Card.Img variant="top" className='image' src={img7} alt='imgA' style={{width:"300px", height:"300px"}} />
         <Card.Body>
           <Card.Title> Projet Tayeur-Gestion</Card.Title>
           <Card.Text>
@@ -44,14 +45,14 @@ export default function Portefolio() {
             <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
             <CardGroup>
       <Card className="p-3 mb-5 ">
-        <Card.Img variant="top" className='image' src={img1} alt='imgA' style={{width:"300px", height:"300px"}} />
+        <Card.Img variant="top" className='image' src={img8} alt='imgA' style={{width:"300px", height:"300px"}} />
         <Card.Body>
-          <Card.Title> crud et authentification</Card.Title>
+          <Card.Title> Easy-Market </Card.Title>
           <Card.Text>
-            Projet realisé en Angular qui pour objectif de faire Une authentification et crud sur les produits 
+            Projet realisé en react-native qui pour objectif de faire une commerce elctronique 
          <br /><br />
          
-         <Button className='btn' href='https://regal-dragon-7f08d7.netlify.app/' target='_blank'>voir le projet en ligne</Button>
+         <Button className='btn' href='https://gitlab.com/bakelipro/easy-market-acheteur-mobile' target='_blank'>voir le projet en ligne</Button>
           </Card.Text>
         </Card.Body>
       </Card>
