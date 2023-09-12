@@ -8,6 +8,7 @@ import img5 from '../images/tache9 (1).jpg'
 import img6 from '../images/TACHEBOOTSTRAP (1).jpg'
 import img7 from '../images/tayeur.JPG'
 import img8 from '../images/easy.png'
+import img9 from '../images/dashboard.PNG'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -66,14 +67,14 @@ export default function Portefolio() {
             <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
             <CardGroup>
       <Card className="p-3 mb-5 ">
-        <Card.Img variant="top" className='image' src={img1} alt='imgA' style={{width:"300px", height:"300px"}} />
+        <Card.Img variant="top" className='image' src={img9} alt='imgA' style={{width:"300px", height:"300px"}} />
         <Card.Body>
-          <Card.Title> crud et authentification</Card.Title>
+          <Card.Title>Gestion de Stock</Card.Title>
           <Card.Text>
-            Projet realisé en Angular qui pour objectif de faire Une authentification et crud sur les produits 
+            Projet realisé en React Django qui pour objectif de faire Une authentification et crud sur les produits commandes founisseur etc..
          <br /><br />
          
-         <Button className='btn' href='https://regal-dragon-7f08d7.netlify.app/' target='_blank'>voir le projet en ligne</Button>
+         <Button className='btn' href='https://github.com/nniang/sendev_project' target='_blank'>voir le projet en ligne</Button>
           </Card.Text>
         </Card.Body>
       </Card>
