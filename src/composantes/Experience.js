@@ -12,7 +12,57 @@ export default function Experience() {
     <Container fluid>
         <Row>
             <h1>Mes expériences</h1>
-           
+
+            <Col xs={12}>
+            <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+                <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>LIcence en Systeme Reseaux Télecom</h4>
+            <h5> 2020-2021</h5>
+            <p>J'ai obtenu ma licence en Systèmes Réseaux Télécoms à UADB(Université Alioune Diop de Bambey) en 2021 
+              et j'ai effectué une soutenance sur la mise en place d'un système de détection
+               d'immatriculation des véhicules dans un parking avec contrôle d'accès utilisant des matériels IoT.
+            </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+            </Col>
+            <Col xs={12}>
+            <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+                <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Tayeur-Gestion</h4>
+            <h5>Avril 2023</h5>
+            <p>Tayeur-gestion est une application de gestion spécialement conçue pour les tailleurs. 
+              Elle a été développée en utilisant React pour la partie frontend et Django pour le backend. Mon rôle dans ce projet était de travailler sur les aspects du frontend et du backend, 
+              contribuant ainsi à la création d'une solution complète pour la gestion efficace des activités de tailleurs.
+            </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+            </Col>
+            <Col xs={12}>
+            <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInRight" : ""}> 
+                <div className='experiences shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Easy-Market</h4>
+            <h5>Avril 2023</h5>
+            <p>Dans le cadre de ce projet, j'ai joué un rôle crucial en me concentrant principalement sur le côté frontend.
+               Mon travail consistait à concevoir l'interface utilisateur, à créer des composants interactifs,
+                et à veiller à ce que l'expérience de navigation soit intuitive et agréable pour les utilisateurs.
+                 J'ai également travaillé sur l'intégration des fonctionnalités de paiement en ligne,
+                  l'affichage des produits et la gestion du panier,
+                   contribuant ainsi à faire de Easy-Market une application de commerce électronique complète et efficace.
+                    Mon engagement dans le développement du frontend a été essentiel pour offrir une expérience de shopping en ligne exceptionnelle à nos utilisateurs.
+              J’ai utiliser react-native Redux toolkit query pour concevoir des UI
+            </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+            </Col>
             <Col xs={12}>
             <TrackVisibility>
             {({isVisible})=>
