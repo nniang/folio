@@ -157,7 +157,7 @@ export default function Experience() {
                 <div className='col1'>
                 <img src={imga} alt="ami"  className='img'/>
                 </div>
-                <h4>18 projets</h4>
+                <h4>10 projets</h4>
             </Col>
 
             <Col xs={12} md={6} lg={3} className='col' >
