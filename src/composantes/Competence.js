@@ -24,6 +24,8 @@ export default function Competence() {
                 <li className='aa'><div className='aaa'></div>  </li><br />
                 <li className='aa'><div className='aaa'></div>  </li><br />
                 <li className='aa'>< div className='aaa'></div>  </li><br />
+                <li className='aa'>< div className='aaa'></div>  </li><br />
+                {/* <li className='aa'>< div className='aaa'></div>  </li><br /> */}
             
                 
                  
@@ -36,6 +38,7 @@ export default function Competence() {
                     <li className='b'> <h4>Angular</h4></li>
                      <li className='b'> <h4>Firebase et Mysql</h4> </li>    
                     <li className='b'> <h4>Django</h4></li> 
+                    <li className='b'> <h4>flutter</h4></li>
                     <li className='b'> <h4>Github</h4></li>
                     <li className='b'> <h4>Gitlab</h4> </li>
                     <li className='b'> <h4>Postgresql</h4></li>
@@ -64,6 +67,7 @@ export default function Competence() {
     <li className='b'> <h4>Php</h4></li> <br/>
     <li className='b'> <h4>Python</h4></li>
     <li className='b'> <h4>React-native</h4></li>
+    <li className='b'> <h4>Dart</h4></li>
     </ul>
 
 <ul className='flex'>    
@@ -73,7 +77,9 @@ export default function Competence() {
         <li className='aa'>< div className='aaa'></div>  </li><br />
         <li className='aa'><div className='aaa'></div>  </li><br />
         <li className='aa'>< div className='aaa'></div>  </li><br />
-        <li className='aa'>< div className='aaa'></div>  </li>
+        <li className='aa'>< div className='aaa'></div>  </li><br />
+         <li className='aa'>< div className='aaa'></div>  </li><br/>
+         {/* <li className='aa'>< div className='aaa'></div>  </li> */}
         
 
     </ul>

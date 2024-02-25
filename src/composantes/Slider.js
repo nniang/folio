@@ -1,6 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-
+import img_slider1 from '../images/Java.jpg'
+import img_slider2 from '../images/Django.jpg'
+import MobileImage from '../images/mobile.png '
 export default function SimpleSlider() {
   var settings = {
     dots: true,
@@ -12,16 +14,16 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings}>
       <div>
-        <h3>1</h3>
+      <img src={img_slider1} alt="ami"  className='img'/>
       </div>
       <div>
-        <h3>2</h3>
+      <img src={img_slider2} alt="ami"  className='img'/>
       </div>
       <div>
-        <h3>3</h3>
+      <img src={img_slider2} alt="ami"  className='img'/>
       </div>
       <div>
-        <h3>4</h3>
+      <img src={MobileImage} alt="ami"  className='img'/>
       </div>
       <div>
         <h3>5</h3>

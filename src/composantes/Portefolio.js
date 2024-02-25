@@ -150,8 +150,6 @@ export default function Portefolio() {
             </Col>
         </Row>
 
-
-
         <Row className='row2'>
             <Col lg={4}>
             <TrackVisibility>
@@ -184,7 +182,7 @@ export default function Portefolio() {
         <Card.Body>
           <Card.Title>Vente d'habillement</Card.Title>
           <Card.Text>
-          Projet e-commerce integration realisé en Bootstrap et javascript qui permet de visualisé les produits commercialisés <br /><br />
+          Projet e-commerce integration realisée en Bootstrap et javascript qui permet de visualisé les produits commercialisés <br /><br />
          
          <Button variant="outline-info" href='https://effulgent-halva-3edd18.netlify.app' target='_blank'>voir le projet en ligne</Button>
           </Card.Text>
@@ -207,7 +205,7 @@ export default function Portefolio() {
           <Card.Text>
           Projet landing page realisé en Bootstrap et javascript pour une  Agence digital <br/> <br /><br />
          
-         <Button variant="outline-info" href='https://frolicking-lokum-f273a0.netlify.app/' target='_blank'>voir le projeten en ligne</Button>
+         <Button variant="outline-info" href='https://frolicking-lokum-f273a0.netlify.app/' target='_blank'>voir le projete en ligne</Button>
           </Card.Text>
         </Card.Body>
       </Card>

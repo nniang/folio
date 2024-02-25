@@ -5,6 +5,7 @@ import imgb from '../images/web-design.png'
 import imgc from '../images/panier.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import SimpleSlider from './Slider';
 
 export default function Experience() {
   return (
@@ -180,6 +181,12 @@ export default function Experience() {
             </div>
             <h4>16 border : solid red 1px;</h4>
             </Col>
+        </Row>
+        <Row className='row-slider '>
+        <Col xs={12} md={12} lg={10} className='col_slider' >
+          <h1 className=''>VOICI MES CERTIFICATIONS</h1>
+          <SimpleSlider/>
+        </Col>
         </Row>
     </Container>
 
