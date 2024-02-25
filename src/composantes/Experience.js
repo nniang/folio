@@ -146,6 +146,28 @@ export default function Experience() {
                 </div>
                 </div>}
               </TrackVisibility>
+              <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInLeft" : ""}> 
+               <div className='experiences  shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Formation en ligne à ForceN</h4>
+            <h5>Janvier 2024</h5>
+            <p>J'ai appris le  language Dart et son framwork Flutter sur la formation de ForceN et beaucoup de mes taches sont validés par des coachs expérimentés telque les landing pages les crud avec firebase et surtout Git et UI/UX design et faire un projet final pour obtenir mon certification  </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+              <TrackVisibility>
+            {({isVisible})=>
+            <div className={isVisible ? " animate__animated animate__lightSpeedInLeft" : ""}> 
+               <div className='experiences  shadow-lg p-3 mb-5 bg-body rounded'>
+                <h4>Formation en ligne à ForceN</h4>
+            <h5>Janvier 2024</h5>
+            <p>J'ai appris le  language Javascript/Typescript et le  framwork Angular sur la formation de ForceN et beaucoup de mes taches sont validés par des coachs expérimentés telque les landing pages les crud avec firebase et surtout Git et UI/UX design et faire un projet final pour obtenir mon certification  </p>
+                </div>
+                </div>}
+              </TrackVisibility>
+              
+
             </Col>
 
 
