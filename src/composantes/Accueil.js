@@ -71,7 +71,7 @@ export default function Accueil() {
                   <ul>
                     <li><img src={img1} />  +221780125721</li> &nbsp;  &nbsp;&nbsp;  &nbsp;
                     <li><img src={img2} /> nngagne00@gmail.com</li> &nbsp;  &nbsp;&nbsp;  &nbsp;
-                    <li><img src={img3} /> Wokam</li>
+                    <li><img src={img3} /> KEUR MASSAR</li>
 
                   </ul>
                 </div>

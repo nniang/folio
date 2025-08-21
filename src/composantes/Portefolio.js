@@ -11,6 +11,11 @@ import img8 from '../images/easy.png'
 import img9 from '../images/dashboard.PNG'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import VideoCard from './VideoCard';
+import videoEasyMarket from "../video/AppABDS.mp4";
+import videoEasyMarkets from "../video/gestionApp.mp4";
+import videoEasyMarketsE from "../video/marketplace.mp4";
+
 
 export default function Portefolio() {
   return (
@@ -19,6 +24,48 @@ export default function Portefolio() {
         <h1>Portfolio</h1>
 
         <Row className='row1'>
+          <Col lg={4}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div className={isVisible ? "animate__animated animate__lightSpeedInRight" : ""}>
+                  <VideoCard
+                    title="Application ABDS"
+                    year="Avril 2025"
+                    description="Dans le cadre de ce projet, j'ai travaillé sur le frontend et backend..."
+                    videoSrc={videoEasyMarket}
+                  />
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+          <Col lg={4}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div className={isVisible ? "animate__animated animate__lightSpeedInRight" : ""}>
+                  <VideoCard
+                    title="Application ENES"
+                    year="2025"
+                    description="Dans le cadre de ce projet, j'ai travaillé sur le frontend et backend..."
+                    videoSrc={videoEasyMarkets}
+                  />
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+          <Col lg={4}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div className={isVisible ? "animate__animated animate__lightSpeedInRight" : "" } m-5>
+                  <VideoCard
+                    title="Application FNTRAIDING"
+                    year="Avril 2025"
+                    description="Dans le cadre de ce projet, j'ai travaillé sur le frontend et backend..."
+                    videoSrc={videoEasyMarketsE}
+                  />
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
         <Col lg={4}>
         <TrackVisibility>
             {({isVisible})=>
@@ -212,9 +259,7 @@ export default function Portefolio() {
       </CardGroup>
        </div>}
        </TrackVisibility>
-      </Col>
-  
-        
+      </Col>      
         </Row>
     </Container>
    </section>

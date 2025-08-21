@@ -7,7 +7,7 @@ export default function Footer() {
     <Container>
         <Row>
             <Col className='d-flex justify-content-center align-items-center'>
-            <h6 className='footerS display-5'>Copyrigth@reserve portfolio 2022 par ngagne niang</h6>
+            <h6 className='footerS display-5'>Copyrigth@reserve portfolio 2022 </h6>
             </Col>
         </Row>
     </Container>
